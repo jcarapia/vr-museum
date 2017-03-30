@@ -11,6 +11,7 @@ var port = process.env.PORT || 3000;
 //   changeOrigin: true
 // });
 
+
 app.use(express.static(publicPath));
 
 //notice that you will not see a physical bundle.js because webpack-dev-server runs it from memory
